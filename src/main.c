@@ -26,7 +26,6 @@ while (fgets(line1, LINE_SIZE1, file) != NULL) {
 	array[i].y = k1.y;
 	i++;
 	}
-
 int convex_size = find_points ( array, convex, LINE_SIZE1, LINE_SIZE2 );
 
 for (i = 0; i < convex_size; i++) {

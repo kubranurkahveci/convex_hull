@@ -32,6 +32,7 @@ int cross_product( struct point *array, int o, int a, int b ) {
 	yb = (array[b].y - array[o].y);
 
 	det = (xa * yb) - (ya * xb);
+
 	return det;
 }
 int find_points ( struct point *array, struct point *convex, int array_size, int convex_size ) {
