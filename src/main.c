@@ -32,7 +32,6 @@ for (i = 0; i < convex_size; i++) {
 
 	printf("%.1f %.1f\n", convex[i].x, convex[i].y );
 }
-
 fclose(file);
 return 0;
 }
