@@ -42,7 +42,6 @@ int find_points ( struct point *array, struct point *convex, int array_size, int
 	o = left;
 	convex[0] = array[o];
 	int j = 0;
-
 	do {
 		a = 0;
 		for (b=1; b < array_size; b++) {

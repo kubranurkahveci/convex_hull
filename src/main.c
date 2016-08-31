@@ -15,7 +15,6 @@ int main (int argc, char **argv)
 	FILE *file;
 	char line1[LINE_SIZE1];
 	int i = 0;
-
 if ((file = fopen ("point.txt","r")) == NULL ) {
 		puts ("Failed to open file \n");
 		return 0;
